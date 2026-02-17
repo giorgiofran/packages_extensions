@@ -1,3 +1,3 @@
-library rational_extension;
+library;
 
 export 'src/rational_extension_base.dart';

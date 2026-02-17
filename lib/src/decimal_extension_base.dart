@@ -15,7 +15,7 @@ extension DecimalExtension on Decimal {
   /// IsNegative
   ///
   /// Returns `true` if this [Decimal] is lesser than zero.
-  bool get isNegative => signum < 0;
+  bool get isNegative => sign < 0;
 
   /// IsZero
   ///
